@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">YummyAmes</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_restaurant">Restaurant</string>
+    <string name="title_near">Near By</string>
+    <string name="title_user">User</string>
+
+
+    <string-array name="register_spinner">
+        <item>Customer</item>
+        <item>Restaurant Owner</item>
+        <item>Deliever(Need to be approved)</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

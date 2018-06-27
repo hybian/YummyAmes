@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    tools:context="com.iastate.yummyames.fragments.HomeFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="50dp"
+                    android:textColor="#FFEFCF"
+                    android:layout_marginTop="30dp"
+                    android:text="Yummy Ames"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:text="Everything is here"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Most favorite Restaurant: ★★★★★" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold|italic"
+                    android:background="#FFEFCF"
+                    android:text="Tasty Place: ($10/person)"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="400dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="400dp"
+                    android:src="@drawable/tasty"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#D2BB8A"
+                android:textStyle="bold|italic"
+                android:text="Tasty Place is a restaurant with Chinese Food. It is located at 2512 Lincoln way. The best seller food is Griddle Cooked:(15$/person)"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="300dp"
+                android:src="@drawable/xiangguo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textStyle="bold|italic"
+                    android:text="May House: ($8/person)"
+                    android:background="#FFEFCF"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/may"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#D2BB8A"
+                android:textStyle="bold|italic"
+                android:text="May House is a restaurant with Chinese Food. It is located at 3417 Lincoln way. The best seller food is Special Chicken:(8$/person)"/>
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="300dp"
+                android:src="@drawable/special"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="#FFEFCF"
+                    android:textStyle="bold|italic"
+                    android:text="Chicken Fil-A: ($7/person)"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/chicken"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#D2BB8A"
+                android:textStyle="bold|italic"
+                android:text="Chicken Fil-A is a restaurant with Best Chicken. It is located at 230 S Duff Ave. The best seller food is Chicken-Strips:(7$/person)"/>
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="300dp"
+                android:src="@drawable/strips"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="#FFEFCF"
+                    android:textStyle="bold|italic"
+                    android:text="Texas RoadHouse: ($15/person)"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/texas"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="#D2BB8A"
+                android:textStyle="bold|italic"
+                android:text="Texas RoadHouse is a restaurant with various steak and chicken meal. It is located at 519 S Duff Ave. The best seller food is Ribeye Steak:(18$/person)"/>
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="300dp"
+                android:src="@drawable/ribeye"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
