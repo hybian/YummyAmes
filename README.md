@@ -1,3 +1,3 @@
 # YummyAmes
 
-![Image](https://github.com/hybian/YummyAmes/raw/master/Poster.png)
+![Image](https://github.com/hybian/YummyAmes/raw/master/Doc/Poster.png)
